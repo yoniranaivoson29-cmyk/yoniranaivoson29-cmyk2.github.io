@@ -46,3 +46,51 @@ h1{
 .sous li a:hover, .sous li a:focus{
     background-color: chartreuse;
 }
+@media screen and (max-width: 768px) {
+
+    body {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .contenu {
+        padding: 10px;
+    }
+
+    .cases {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .sous {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+}
